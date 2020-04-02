@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 $url = "https://example.bitrix24.ru/rest/0/example/profile/";
 
