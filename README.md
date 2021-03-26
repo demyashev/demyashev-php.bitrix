@@ -71,7 +71,7 @@ $bitrix = new Demyashev\Bitrix\Core($url);
 $profile = $bitrix->getModule('profile');
 
 /** @var \Demyashev\Bitrix\Model\Profile */
-# $user = $profile->profile();
+$user = $profile->profile();
 
 var_dump($user);
 ```
